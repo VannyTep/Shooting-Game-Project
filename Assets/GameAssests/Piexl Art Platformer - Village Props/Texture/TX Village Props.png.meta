@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: e1b814bdffcbe964fbfd5e6145f3d4ea
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3806943691756881100
+    second: grass_0
+  - first:
+      213: 9202163618114184290
+    second: grass_1
+  - first:
+      213: 5803455356149086885
+    second: grass_2
+  - first:
+      213: 3325885465304735478
+    second: grass_3
+  - first:
+      213: -2052889030473512461
+    second: grass_4
+  - first:
+      213: -8353649271199622519
+    second: grass_5
+  - first:
+      213: -996102965649306420
+    second: grass_6
+  - first:
+      213: -8851566310641887263
+    second: grass_7
+  - first:
+      213: -2305204071527019509
+    second: grass_8
+  - first:
+      213: 4043336235166259366
+    second: grass_9
+  - first:
+      213: 1869448426372411155
+    second: Bush_0
+  - first:
+      213: 1525665788296376077
+    second: Bush_1
+  - first:
+      213: 1834572546528341463
+    second: Bush_2
+  - first:
+      213: -2372780660111545611
+    second: Tree_0
+  - first:
+      213: -2152553858764809784
+    second: Tree_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -32,7 +77,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +86,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +135,322 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: grass_0
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 544
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bbae4e1e40b2bc0800000000000000
+      internalID: -3806943691756881100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_1
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 544
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26428b63e07a4bf70800000000000000
+      internalID: 9202163618114184290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_2
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 544
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaba1df5e30a8050800000000000000
+      internalID: 5803455356149086885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 512
+        width: 19
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5000016, y: 0.67184985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe9f1b953be72e20800000000000000
+      internalID: 3325885465304735478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 512
+        width: 24
+        height: 17
+      alignment: 9
+      pivot: {x: 0.50716144, y: 0.65668803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9845fad4ca283e0800000000000000
+      internalID: -2052889030473512461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 512
+        width: 17
+        height: 17
+      alignment: 9
+      pivot: {x: 0.49494845, y: 0.6061437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a12f35f30e11c80800000000000000
+      internalID: -8353649271199622519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 480
+        width: 20
+        height: 14
+      alignment: 9
+      pivot: {x: 0.517186, y: 0.6779894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc82cc51a12d22f0800000000000000
+      internalID: -996102965649306420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 480
+        width: 7
+        height: 14
+      alignment: 9
+      pivot: {x: 0.50000435, y: 0.60651505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7106c865be82580800000000000000
+      internalID: -8851566310641887263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_8
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 480
+        width: 21
+        height: 14
+      alignment: 9
+      pivot: {x: 0.4836353, y: 0.6657148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c09d54c154200e0800000000000000
+      internalID: -2305204071527019509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_9
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 480
+        width: 19
+        height: 14
+      alignment: 9
+      pivot: {x: 0.49548018, y: 0.6595764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8dc8422e0dc1830800000000000000
+      internalID: 4043336235166259366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_0
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 415
+        width: 57
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3701477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f27d3607d91f910800000000000000
+      internalID: 1869448426372411155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_1
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 415
+        width: 89
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5062225, y: 0.3092524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f2f5d73f04c2510800000000000000
+      internalID: 1525665788296376077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_2
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 415
+        width: 96
+        height: 37
+      alignment: 9
+      pivot: {x: 0.50115395, y: 0.2754929}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd6186d206b57910800000000000000
+      internalID: 1834572546528341463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_0
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 415
+        width: 119
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49617735, y: 0.17540751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa6228af80321fd0800000000000000
+      internalID: -2372780660111545611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_1
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 415
+        width: 153
+        height: 162
+      alignment: 9
+      pivot: {x: 0.5212398, y: 0.173934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c95d609ba79022e0800000000000000
+      internalID: -2152553858764809784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
