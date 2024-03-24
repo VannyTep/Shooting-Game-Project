@@ -1,7 +1,16 @@
 fileFormatVersion: 2
 guid: 1528fe8576b37c249b699d0aea282472
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2268674869191614166
+    second: Jump-End-Sheet_0
+  - first:
+      213: 7223305902920631688
+    second: Jump-End-Sheet_1
+  - first:
+      213: 4062616787491900451
+    second: Jump-End-Sheet_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -32,7 +41,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +50,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +99,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Jump-End-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1
+        width: 25
+        height: 48
+      alignment: 9
+      pivot: {x: 0.7187413, y: 0.49287972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a216af6f93c0480e0800000000000000
+      internalID: -2268674869191614166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-End-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 35
+        height: 48
+      alignment: 9
+      pivot: {x: 0.60679084, y: 0.49999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885019fa2765e3460800000000000000
+      internalID: 7223305902920631688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-End-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 35
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5320369, y: 0.49999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c4efc8170516830800000000000000
+      internalID: 4062616787491900451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

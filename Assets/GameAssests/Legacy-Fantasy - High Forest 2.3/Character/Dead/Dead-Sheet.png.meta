@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 2c381d71f61a6bd428d66aaecd1153f1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -991337670129402260
+    second: Dead-Sheet_0
+  - first:
+      213: -2341150610586832164
+    second: Dead-Sheet_1
+  - first:
+      213: -333531542143807263
+    second: Dead-Sheet_2
+  - first:
+      213: -2862117330190802214
+    second: Dead-Sheet_3
+  - first:
+      213: -7093258249299403512
+    second: Dead-Sheet_4
+  - first:
+      213: 2138431581905992941
+    second: Dead-Sheet_5
+  - first:
+      213: 8146223952374293755
+    second: Dead-Sheet_6
+  - first:
+      213: 5130399401273206314
+    second: Dead-Sheet_7
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -32,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +65,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +114,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Dead-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 35
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5013129, y: 0.45698208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e397f24af0e32f0800000000000000
+      internalID: -991337670129402260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 13
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.68919843, y: 0.4555096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd278427cef828fd0800000000000000
+      internalID: -2341150610586832164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 16
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.6663872, y: 0.26449487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0512d54de0f5bf0800000000000000
+      internalID: -333531542143807263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 16
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.66180956, y: 0.22271514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2ec7cc377b748d0800000000000000
+      internalID: -2862117330190802214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 16
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.6910634, y: 0.24446122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d5666343faf8d90800000000000000
+      internalID: -7093258249299403512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 16
+        width: 39
+        height: 47
+      alignment: 9
+      pivot: {x: 0.6018395, y: 0.22191738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decbbff913c3dad10800000000000000
+      internalID: 2138431581905992941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 16
+        width: 50
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5537695, y: 0.13022508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf46c0e26833d0170800000000000000
+      internalID: 8146223952374293755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 11
+        width: 53
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5172269, y: 0.45434844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2624ccc217d23740800000000000000
+      internalID: 5130399401273206314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
