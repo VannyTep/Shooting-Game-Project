@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 6018962847240343184}
   - component: {fileID: 6018962847240343183}
   - component: {fileID: 6018962847240343180}
-  - component: {fileID: 6018962847240343185}
+  - component: {fileID: 477863504671272358}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -175,7 +175,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6018962847240343185
+--- !u!114 &477863504671272358
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,14 +184,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6018962847240343186}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca8f6547e94f41242bc24c33b233fbfa, type: 3}
+  m_Script: {fileID: 11500000, guid: 2dba55502a9f97c4d9585c0630961143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 500
+  MoveSpeed: 550
   isFacingRight: 1
   jumpForce: 27
-  jumpTime: 0.3
-  fallMultiplier: 4.5
+  jumpTime: 0.5
+  fallMultiplier: 5
   jumpMultiplier: 3
   groundCheck: {fileID: 6018962845794224788}
   groundCheckRadius: 0.5
