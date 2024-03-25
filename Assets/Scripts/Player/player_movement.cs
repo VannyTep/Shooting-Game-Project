@@ -25,6 +25,7 @@ public class player_movement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckRadius = 0.1f;
     public LayerMask groundLayer;
+    bool isGrounded;
 
     Vector2 vecGravity;
 
@@ -42,6 +43,10 @@ public class player_movement : MonoBehaviour
     // Update is called once per frame
     void Update() {
         jump();
+        Debug.Log(rb.velocity.y);
+
+
+        IsGround();
     }
 
     void FixedUpdate() {
@@ -61,11 +66,13 @@ public class player_movement : MonoBehaviour
     }
 
     void jump() {
-        if (Input.GetButtonDown("Jump") && isGround())
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             isJumping = true;
             jumpCounter = 0;
+
+            animator.SetTrigger("IsJump");
         }
         if (rb.velocity.y < 0 && isJumping) {
             jumpCounter += Time.deltaTime;
@@ -90,18 +97,15 @@ public class player_movement : MonoBehaviour
         }
         if (rb.velocity.y < 0) {
             rb.velocity -= vecGravity * (fallMultiplier - 1) * Time.deltaTime;
-
-            // Player play animation fall
-            animator.SetBool("IsJump", false);
-            animator.SetBool("IsFall", true);
         }
-        if (isGround() && rb.velocity.y == 0) {
-            animator.SetBool("IsJump", false);
+        
+        if(rb.velocity.y > .1f) {
             animator.SetBool("IsFall", false);
         }
-        if (rb.velocity.y > 0) {
-            // Player play animation jump
-            animator.SetBool("IsJump", true);
+        if(rb.velocity.y < -.1f) {
+            animator.SetBool("IsFall", true);
+        }
+        if(isGrounded) {
             animator.SetBool("IsFall", false);
         }
     }
@@ -113,7 +117,7 @@ public class player_movement : MonoBehaviour
         transform.localScale = scale;
     }
 
-    bool isGround() {
-        return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+    void IsGround() {
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
 }
