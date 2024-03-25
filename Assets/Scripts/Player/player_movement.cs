@@ -72,7 +72,7 @@ public class player_movement : MonoBehaviour
             isJumping = true;
             jumpCounter = 0;
 
-            animator.SetBool("IsJump", true);
+            animator.SetTrigger("IsJump");
         }
         if (rb.velocity.y < 0 && isJumping) {
             jumpCounter += Time.deltaTime;
@@ -100,15 +100,12 @@ public class player_movement : MonoBehaviour
         }
         
         if(rb.velocity.y > .1f) {
-            animator.SetBool("IsJump", true);
             animator.SetBool("IsFall", false);
         }
         if(rb.velocity.y < -.1f) {
-            animator.SetBool("IsJump", false);
             animator.SetBool("IsFall", true);
         }
         if(isGrounded) {
-            animator.SetBool("IsJump", false);
             animator.SetBool("IsFall", false);
         }
     }
