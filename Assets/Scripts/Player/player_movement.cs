@@ -43,10 +43,6 @@ public class player_movement : MonoBehaviour
     // Update is called once per frame
     void Update() {
         jump();
-<<<<<<< HEAD
-=======
-        Debug.Log(rb.velocity.y);
->>>>>>> e3995450859acda43705368e941161b98b7e1e16
 
 
         IsGround();

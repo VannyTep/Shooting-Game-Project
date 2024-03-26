@@ -1,9 +1,6 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Scripts/Levels_Script/BackgroundScroller.cs.meta
 guid: 2dba55502a9f97c4d9585c0630961143
-========
-guid: ca8f6547e94f41242bc24c33b233fbfa
->>>>>>>> 56ea58cfb915c1cb109e0db576102d073a582126:Assets/Scripts/Player/player_movement.cs.meta
+56ea58cfb915c1cb109e0db576102d073a582126:Assets/Scripts/Player/player_movement.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
