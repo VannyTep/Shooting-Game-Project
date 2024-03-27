@@ -90,6 +90,7 @@ public class player_movement : MonoBehaviour
             isJumping = false;
             jumpCounter = 0;
 
+
             if (rb.velocity.y > 0) {
                 rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.6f);
             }
@@ -97,16 +98,22 @@ public class player_movement : MonoBehaviour
         if (rb.velocity.y < 0) {
             rb.velocity -= vecGravity * (fallMultiplier - 1) * Time.deltaTime;
         }
-        
-        if(rb.velocity.y > .1f) {
+
+        // Animation
+
+        if (isGrounded == true && rb.velocity.y == 0) {
             animator.SetBool("IsFall", false);
         }
-        if(rb.velocity.y < -.1f) {
+
+        if (rb.velocity.y > 0.1f) {
+            animator.SetBool("IsFall", false);
+        }
+
+        if (rb.velocity.y < -0.1f) {
             animator.SetBool("IsFall", true);
         }
-        if(isGrounded) {
-            animator.SetBool("IsFall", false);
-        }
+
+        Debug.Log(rb.velocity.y);
     }
 
     void flip() {
