@@ -6,6 +6,7 @@ using UnityEngine;
 public class Player_Combat : MonoBehaviour
 {
     private Animator animator;
+    private KnockBack knockBackScript;
 
     public Transform attackpoint;
     public float attackRange = 0.5f;
@@ -13,17 +14,25 @@ public class Player_Combat : MonoBehaviour
 
     public int attackDamage = 40;
 
+    public float attackRate = 3f;
+    float nextAttackTime = 0f;
+
 
     void Awake() 
     {
         animator = GetComponent<Animator>();
+        knockBackScript = GetComponent<KnockBack>();
     }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Attack();
+        if(Time.time >= nextAttackTime)
+        {  
+            if (Input.GetButtonDown("Fire1"))
+            {
+                Attack();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
         }
     }
 
@@ -37,6 +46,7 @@ public class Player_Combat : MonoBehaviour
         foreach (Collider2D enemies in hitEnemies)
         {
             enemies.GetComponent<Enemies>().TakeDamage(attackDamage);
+            knockBackScript.Knockback(enemies.GetComponent<Rigidbody2D>());
         }
 
     }
