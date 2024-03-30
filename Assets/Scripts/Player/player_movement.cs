@@ -44,7 +44,6 @@ public class player_movement : MonoBehaviour
     void Update() {
         jump();
 
-
         IsGround();
     }
 
@@ -112,8 +111,6 @@ public class player_movement : MonoBehaviour
         if (rb.velocity.y < -0.1f) {
             animator.SetBool("IsFall", true);
         }
-
-        Debug.Log(rb.velocity.y);
     }
 
     void flip() {
